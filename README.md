@@ -20,7 +20,7 @@ This isn't just another RAG implementation. It's a **production-ready system** w
 
 ## 🎬 Quick Demo
 
-![Smart Document Assistant](https://via.placeholder.com/800x400/1f1f1f/ffffff?text=Smart+Document+Assistant+Demo)
+
 
 _Upload documents, ask questions, get intelligent answers with source references - all running locally!_
 
