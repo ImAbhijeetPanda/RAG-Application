@@ -366,11 +366,6 @@ smart-document-assistant/
 │   ├── 📄 utils.py                 # Utility functions
 │   ├── 📄 embedding_providers.py   # Multiple embedding providers
 │   └── 📄 performance_monitor.py   # Performance monitoring
-├── 📁 data/                        # Data storage
-│   └── 📁 uploads/                 # Uploaded documents (gitignored)
-├── 📁 cache/                       # Performance cache (auto-created, gitignored)
-│   └── 📁 embeddings/              # Embedding cache
-├── 📁 chroma_db/                   # Vector database (auto-created, gitignored)
 └── 📁 tests/                       # Comprehensive test suite
     ├── 📄 test_setup.py            # Setup verification
     ├── 📄 test_functionality.py    # Full functionality testing
