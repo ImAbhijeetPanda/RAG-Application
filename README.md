@@ -349,29 +349,32 @@ HUGGINGFACE_API_KEY = ""   # For HuggingFace embeddings
 
 ```
 smart-document-assistant/
-├── 📄 README.md                    # This comprehensive guide
-├── 📄 LICENSE                      # MIT License
-├── 📄 requirements.txt             # Python dependencies
-├── 📄 config.py                    # Configuration settings
-├── 📄 app.py                       # Main Streamlit application
-├── 📄 setup_env.py                 # Environment setup script
-├── 📄 OPTIMIZATION_SUMMARY.md      # Performance optimizations detailed
-├── 📄 RESPONSE_OPTIMIZATION.md     # Response style improvements
-├── 📁 src/                         # Core application modules
-│   ├── 📄 __init__.py
-│   ├── 📄 pdf_processor.py         # Document processing
-│   ├── 📄 embeddings.py            # Embedding generation with caching
-│   ├── 📄 vector_store.py          # Vector database management
-│   ├── 📄 retrieval_qa.py          # RAG chatbot with optimizations
-│   ├── 📄 utils.py                 # Utility functions
-│   ├── 📄 embedding_providers.py   # Multiple embedding providers
-│   └── 📄 performance_monitor.py   # Performance monitoring
-└── 📁 tests/                       # Comprehensive test suite
-    ├── 📄 test_setup.py            # Setup verification
-    ├── 📄 test_functionality.py    # Full functionality testing
-    ├── 📄 test_fixes.py            # Bug fix verification
-    ├── 📄 test_chunking_features.py # Chunking optimization tests
-    └── 📄 test_document_count.py   # Document counting tests
+├── src/                       # Core application modules
+│   ├── __init__.py
+│   ├── pdf_processor.py       # Document processing
+│   ├── embeddings.py          # Embedding generation with caching
+│   ├── vector_store.py        # Vector database management
+│   ├── retrieval_qa.py        # RAG chatbot with optimizations
+│   ├── utils.py               # Utility functions
+│   ├── embedding_providers.py # Multiple embedding providers
+│   └── performance_monitor.py # Performance monitoring
+├── tests/                     # Comprehensive test suite
+│   ├── test_setup.py              # Setup verification
+│   ├── test_functionality.py      # Full functionality testing
+│   ├── test_fixes.py              # Bug fix verification
+│   ├── test_chunking_features.py  # Chunking optimization tests
+│   └── test_document_count.py     # Document counting tests
+├── README.md                  # This comprehensive guide
+├── LICENSE                    # MIT License
+├── requirements.txt           # Python dependencies
+├── config.py                  # Configuration settings
+├── app.py                     # Main Streamlit application
+├── setup_env.py               # Environment setup script
+├── OPTIMIZATION_SUMMARY.md    # Performance optimizations detailed
+├── RESPONSE_OPTIMIZATION.md   # Response style improvements
+
+
+
 ```
 
 > **Note**: Cache, database, and upload directories are automatically created when you run the application. They're excluded from Git to keep the repository clean.
