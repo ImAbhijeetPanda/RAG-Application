@@ -1,0 +1,19 @@
+# Data, Cache, Vector DB (not for Git)
+data/uploads/
+cache/
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+rag_env/
+
+# OS/IDE files
+.DS_Store
+.vscode/
+
+
